@@ -13,6 +13,7 @@
 		C6CA9EFE28520426007DA66F /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA9EFD28520426007DA66F /* LandmarkRow.swift */; };
 		C6CA9F0028520720007DA66F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA9EFF28520720007DA66F /* LandmarkList.swift */; };
 		C6CA9F02285208AE007DA66F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA9F01285208AE007DA66F /* LandmarkDetail.swift */; };
+		C6CA9F0428525D31007DA66F /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA9F0328525D31007DA66F /* FavoriteButton.swift */; };
 		C6E8E6AA2850FE150034B61B /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8E6A92850FE150034B61B /* LandmarksApp.swift */; };
 		C6E8E6AC2850FE150034B61B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8E6AB2850FE150034B61B /* ContentView.swift */; };
 		C6E8E6AE2850FE160034B61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E8E6AD2850FE160034B61B /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		C6CA9EFD28520426007DA66F /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		C6CA9EFF28520720007DA66F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		C6CA9F01285208AE007DA66F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		C6CA9F0328525D31007DA66F /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		C6E8E6A62850FE150034B61B /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E8E6A92850FE150034B61B /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		C6E8E6AB2850FE150034B61B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,11 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				C6E8E6AB2850FE150034B61B /* ContentView.swift */,
-				C6E8E6B7285101E00034B61B /* CircleImage.swift */,
-				C6CA9EFD28520426007DA66F /* LandmarkRow.swift */,
-				C6CA9EFF28520720007DA66F /* LandmarkList.swift */,
-				C6CA9F01285208AE007DA66F /* LandmarkDetail.swift */,
-				C6E8E6B92851037D0034B61B /* MapView.swift */,
+				C6CA9F0628525EAB007DA66F /* Landmarks */,
+				C6CA9F0528525E7B007DA66F /* Helpers */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -68,6 +67,26 @@
 				C6CA9EF928520245007DA66F /* ModelData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C6CA9F0528525E7B007DA66F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C6E8E6B7285101E00034B61B /* CircleImage.swift */,
+				C6CA9F0328525D31007DA66F /* FavoriteButton.swift */,
+				C6E8E6B92851037D0034B61B /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C6CA9F0628525EAB007DA66F /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				C6CA9EFD28520426007DA66F /* LandmarkRow.swift */,
+				C6CA9EFF28520720007DA66F /* LandmarkList.swift */,
+				C6CA9F01285208AE007DA66F /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		C6E8E69D2850FE150034B61B = {
@@ -181,6 +200,7 @@
 				C6E8E6AC2850FE150034B61B /* ContentView.swift in Sources */,
 				C6E8E6BA2851037D0034B61B /* MapView.swift in Sources */,
 				C6E8E6AA2850FE150034B61B /* LandmarksApp.swift in Sources */,
+				C6CA9F0428525D31007DA66F /* FavoriteButton.swift in Sources */,
 				C6CA9F0028520720007DA66F /* LandmarkList.swift in Sources */,
 				C6CA9F02285208AE007DA66F /* LandmarkDetail.swift in Sources */,
 				C6E8E6B8285101E00034B61B /* CircleImage.swift in Sources */,
